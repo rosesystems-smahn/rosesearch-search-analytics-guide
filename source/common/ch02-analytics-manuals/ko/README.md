@@ -1,17 +1,19 @@
-# 로그분석기 통합매뉴얼
-
+로그분석기 통합매뉴얼
+===================
 
 목차
 ---
-1. 시스템개요
-2. 로그분석기 설치
-3. 서비스 시작/종료
-4. 사이트 리포트
-5. 사이트 설정관리
-6. 시스템 설정관리
+1. [시스템개요](#SUMMARY)
+2. [로그분석기 설치](#ANALYZER_INSTALL)
+3. [서비스 시작/종료](#SERVICE_START_STOP)
+4. [사이트 리포트](#SITE_REPORT)
+5. [사이트 설정관리](#SITE_CONFIG_MANAGE)
+6. [시스템 설정관리](#SYSTEM_CONFIG_MANAGE)
 
 <span></span>
-### 1. 시스템개요
+
+<a name="SUMMARY"></a>
+## 1. 시스템개요
 ------------
 
 ### 1.1. 개요
@@ -118,7 +120,8 @@ HTTP Rest 방식의 통신을 이용하여 JSON 형태의 결과를 외부에 �
 
 자주 유입되는 연관성이 있는 키워드 조합을 연관검색어로 제공
 
-2. 로그분석기 설치
+<a name="ANALYZER_INSTALL"></a>
+## 2. 로그분석기 설치
 ----------------
 
 ### 2.1. 설치환경
@@ -227,7 +230,8 @@ $ mv -r target/analytics-*  <설치위치>/
 8081포트는 웹관리도구를 사용하는 사용자 PC와 열려있어야 함.
 ```
  
-3. 서비스 시작/종료
+<a name="SERVICE_START_STOP"></a>
+## 3. 서비스 시작/종료
 -----------------
 
 ### 3.1. 서비스 시작
@@ -262,7 +266,9 @@ $ mv -r target/analytics-*  <설치위치>/
 - Linux : bin/daemon.sh stop 를 호출한다. 또는 bin/stop.sh 를 호출하면 process를 찾아서 kill 한다.
 - Windows : 실행중인 cmd창을 닫는다.
  
-4. 사이트 리포트
+
+<a name="SITE_REPORT"></a>
+## 4. 사이트 리포트
 ---------------
 
 ### 4.1. 시작
@@ -538,7 +544,9 @@ $ mv -r target/analytics-*  <설치위치>/
 
 ![](https://raw.githubusercontent.com/fastcat-co/fastcat-manuals/master/search-analytics/analytics-manual/ko/img/402.jpg)
  
-5. 사이트 설정관리
+
+<a name="SITE_CONFIG_MANAGE"></a>
+## 5. 사이트 설정관리
 ----------------
 
 ### 5.1. 통계 설정
@@ -668,7 +676,9 @@ Recent Log Using Size에 5로 입력시 이전 30분의 데이터로 실시간 �
 
 ![](https://raw.githubusercontent.com/fastcat-co/fastcat-manuals/master/search-analytics/analytics-manual/ko/img/407.jpg)
  
-6. 시스템 설정관리
+
+<a name="SYSTEM_CONFIG_MANAGE"></a>
+## 6. 시스템 설정관리
 ----------------
 
 우측 상단의 `톱니바퀴`를 클릭하면 시스템 설정관리 화면으로 이동한다.

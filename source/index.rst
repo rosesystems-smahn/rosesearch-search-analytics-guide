@@ -17,10 +17,3 @@ Welcome to rosesearch-search-analytics's documentation!
    common/ch03-analytics-api/ko/* 
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

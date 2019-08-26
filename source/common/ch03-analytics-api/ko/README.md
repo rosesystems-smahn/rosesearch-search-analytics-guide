@@ -3,15 +3,16 @@
 
 목차
 ---
-1. 통계입력 API
-2. 통계결과 API
-3. 이벤트 입력 API
-4. 사용자속성 입력 API
-5. 추천 API
+1. [통계입력 API](#STATISTICS_INPUT_API)
+2. [통계결과 API](#STATISTICS_RESULT_API)
+3. [이벤트 입력 API](#EVENT_INPUT_API)
+4. [사용자속성 입력 API](#USER_INPUT_API)
+5. [추천 API](#RECOMMAND_API)
 
 
 <span></span>
-1. 통계입력 API
+<a name="STATISTICS_INPUT_API"></a>
+## 1. 통계입력 API
 
 이 장에서는 통계데이터의 입력방법과 그 역할에 대해 설명한다.
 
@@ -149,7 +150,8 @@ URL : `http://[서버 IP]:[서버 PORT]/service/ctr/click/post`
 
 실시간 인기 키워드는 5분마다 1번씩 집계되며, 나머지 일별 통계는 1일 1회 (0시) 집계 된다.
  
-2. 통계결과 API
+<a name="STATISTICS_RESULT_API"></a>
+## 2. 통계결과 API
 
 인기검색어, 연관검색어의 API
 
@@ -310,8 +312,8 @@ http://localhost:8050/service/keyword/relate.xml?siteId=total&keyword=원피스
 ``` 
 
 
-
-3. 이벤트 입력 API
+<a name="EVENT_INPUT_API"></a>
+## 3. 이벤트 입력 API
 
 사용자의 행동을 학습하고 추천모델을 생성하기 위해서는 먼저 이벤트를 입력받아야 한다. 이벤트는 관리도구에서 `사이트 > 구성 > 이벤트설정` 에서 추가하도록 한다.
 
@@ -331,7 +333,8 @@ URL : `POST /service/events`
 ** 여기서 사용되는 category 는 인기검색어 통계분석에서 사용되는 카테고리와는 별도이다.
 
 
-4. 추천 API
+<a name="USER_INPUT_API"></a>
+## 4. 추천 API
 
 
 ## 4.1 아이템 추천
@@ -393,7 +396,9 @@ URL : `GET /service/recommendation/users`
 ]
 ```
 
-5. 그룹기반 인기상품 추천 API
+
+<a name="RECOMMAND_API"></a>
+## 5. 그룹기반 인기상품 추천 API
 
 앞서본 4장의 아이템 추천이 개인에 대한 추천이라고 한다면, 그룹기반은 개인이 속한 그룹에 대하여 아이템을 추천해주는 방식이다. 또한 아이템 추천은 협업필터 방식인데 반해 이 그룹기반 추천은 해당 그룹에서 가장 인기가 많은 (가중치가 높은) 아이템을 추천해준다.
 
