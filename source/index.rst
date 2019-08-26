@@ -14,6 +14,5 @@ Welcome to rosesearch-search-analytics's documentation!
 
    common/ch01-start-shutdown/ko/*
    common/ch02-analytics-manuals/ko/*
-   common/ch03-analytics-api/ko/* 
-
+   common/ch03-analytics-api/ko/*
 
