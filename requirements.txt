@@ -28,7 +28,7 @@ mkdocs==1.0.4
 mkdocs-bootstrap==1.0.1
 mkpdfs-mkdocs==1.0.1
 packaging==19.1
-Pillow==6.1.0
+Pillow==9.3.0
 pycparser==2.19
 Pygments==2.4.2
 pylint==2.3.1
